@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qif-attribution"
+version = "0.1.0"
+description = "Quantum-informed source attribution for AI-generated images"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Mohamed Magzoub" }]
+dependencies = [
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6",
+]
+generation = [
+    "accelerate>=0.30",
+    "diffusers>=0.30",
+    "safetensors>=0.4",
+    "torch>=2.2",
+    "transformers>=4.40",
+]
+analysis = [
+    "pillow>=10",
+]
+deep = [
+    "pillow>=10",
+    "torch>=2.2",
+    "torchvision>=0.17",
+]
+
+[project.scripts]
+qif-attr = "qif_attribution.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = ["*.ipynb"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

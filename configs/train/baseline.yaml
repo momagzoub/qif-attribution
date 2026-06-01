@@ -1,0 +1,8 @@
+experiment_name: baseline_clip_probe
+dataset_config: configs/data/pilot.yaml
+target_label: generator_id
+feature_extractor: clip_vit_b32
+classifier: logistic_regression
+seed: 1729
+batch_size: 64
+epochs: 20

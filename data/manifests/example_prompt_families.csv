@@ -1,0 +1,5 @@
+prompt_id,family_id,semantic_id,prompt_text,prompt_source,prompt_category,prompt_style
+prompt_0001,family_cube,semantic_table_object,a red cube on a table,human,object,concise
+prompt_0002,family_cube,semantic_table_object,a crimson cube resting on a wooden table,llm_a,object,paraphrased
+prompt_0003,family_sphere,semantic_table_object,a blue sphere on a table,human,object,concise
+prompt_0004,family_sphere,semantic_table_object,a glossy blue ball centered on a table,llm_b,object,paraphrased

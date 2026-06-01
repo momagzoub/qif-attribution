@@ -1,0 +1,3 @@
+image_id,sha256,prompt_id,prompt_text,prompt_source,prompt_category,prompt_style,generator_id,generator_version,seed,sampler,steps,cfg_scale,width,height,postprocess,license_notes,relative_path
+toy_0001,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,prompt_0001,a red cube on a table,human,object,concise,sd15,1.5,101,euler,30,7.5,512,512,none,pilot placeholder,raw/toy_0001.png
+toy_0002,bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,prompt_0002,a blue sphere on a table,llm_a,object,concise,sd15,1.5,102,euler,30,7.5,512,512,none,pilot placeholder,raw/toy_0002.png

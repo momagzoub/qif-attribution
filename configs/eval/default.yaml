@@ -1,0 +1,11 @@
+experiment_name: default_eval
+metrics:
+  - accuracy
+  - macro_f1
+  - balanced_accuracy
+  - confusion_matrix
+robustness_attacks:
+  - jpeg_75
+  - resize_75
+  - gaussian_blur_1
+  - crop_center_90

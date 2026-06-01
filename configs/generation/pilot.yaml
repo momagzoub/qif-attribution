@@ -1,0 +1,18 @@
+concepts_path: data/manifests/pilot_concepts.csv
+generators_path: data/manifests/example_generators.csv
+prompts_output: data/interim/pilot_prompts.csv
+jobs_output: data/interim/pilot_jobs.csv
+manifest_output: data/interim/pilot_manifest.csv
+prompt_sources:
+  - human
+  - llm_a
+  - llm_b
+prompt_styles:
+  - concise
+  - technical
+seeds:
+  - 0
+  - 1
+output_prefix: raw
+expected_prompt_count: 24
+expected_job_count: 96

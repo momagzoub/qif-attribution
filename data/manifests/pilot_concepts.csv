@@ -1,0 +1,5 @@
+concept_id,category,subject,setting,attributes
+cube_table,object,red cube,on a table,matte surface;simple composition
+sphere_table,object,blue sphere,on a table,glossy surface;centered composition
+glass_house,architecture,glass house,in a forest,modern design;morning light
+lab_robot,scientific,small lab robot,on a workbench,metal body;visible sensors

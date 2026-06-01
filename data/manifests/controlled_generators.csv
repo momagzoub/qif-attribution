@@ -1,0 +1,5 @@
+generator_id,generator_version,sampler,steps,cfg_scale,width,height,model_id,backend
+sd15,1.5,euler,30,7.5,512,512,runwayml/stable-diffusion-v1-5,diffusers
+sd21_base,2.1-base,euler,30,7.5,512,512,sd2-community/stable-diffusion-2-1-base,diffusers
+openjourney_v4,4,euler,30,7.5,512,512,prompthero/openjourney-v4,diffusers
+dreamlike_photoreal_2,2.0,euler,30,7.5,512,512,dreamlike-art/dreamlike-photoreal-2.0,diffusers
